@@ -11,16 +11,5 @@ I would like to see a list of bookmarks
 
 ## Domain Model
 
-| name      | bookmarks       |  user                   |         
-| --------  | -------------   | ---------------------   |
-| variables | @title          |  @bookmark              |  
-|           | @link           |                         |                        
-|           | @categories     |                         |                    
-|           | @tags           |                         |                    
-| --------  | -------------   | ---------------------   | 
-|           | add             |                         |                 
-| methods   | delete          |                         |                   
-|           | update          |                         | 
-|           | comment         |                         |    
-|           | filter          |                         |    
-|           | add_tag         |                         |                    
+![Screenshot](https://i.imgur.com/orPPPo0.png)          
+         
