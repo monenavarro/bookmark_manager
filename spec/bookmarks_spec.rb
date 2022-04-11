@@ -1,8 +1,11 @@
 require 'bookmarks.rb'
 
+truncate_database
+
 describe Bookmark do
   describe '.all' do
     it 'lists all bookmarks' do
+      add_test_bookmarks
       bookmarks = Bookmark.all
       expect(bookmarks).to include "http://www.makersacademy.com"
       expect(bookmarks).to include "http://www.destroyallsoftware.com"

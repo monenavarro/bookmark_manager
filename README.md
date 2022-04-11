@@ -17,3 +17,8 @@ I would like to see a list of bookmarks
 ## Database Setup
 
 Connect to `psql` in terminal, then use the command `CREATE DATABASE bookmark_manager;`. Connect to the database using `\c bookmark_manager;` and finally run the query that is saved in the file `01_create_bookmarks_table.sql`.
+
+## Test Database Setup
+
+Connect to `psql` in terminal, then use the command `CREATE DATABASE bookmark_manager_test;`. Connect to the database using `\c bookmark_manager_test;` and finally run the query that is saved in the file `01_create_bookmarks_table.sql`.
+
