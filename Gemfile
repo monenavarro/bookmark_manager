@@ -11,5 +11,6 @@ gem 'rubocop'
 gem 'simplecov'
 gem 'simplecov-console'
 gem 'rack'
+gem 'pg'
 
 # gem "rails"

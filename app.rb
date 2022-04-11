@@ -1,5 +1,6 @@
 require 'sinatra/base'
 require 'sinatra/reloader'
+require 'pg'
 
 class Bookmark_Manager < Sinatra::Base
   configure :development do
