@@ -7,8 +7,6 @@ describe Bookmark do
     it 'lists all bookmarks' do
       add_test_bookmarks
       bookmarks = Bookmark.all
-      expect(bookmarks).to include "http://www.makersacademy.com"
-      expect(bookmarks).to include "http://www.destroyallsoftware.com"
       expect(bookmarks).to include "http://www.google.com"
     end
   end

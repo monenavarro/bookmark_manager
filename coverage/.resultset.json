@@ -6,6 +6,7 @@
           1,
           1,
           1,
+          1,
           null,
           1,
           1,
@@ -17,11 +18,51 @@
           null,
           null,
           1,
+          2,
+          2,
+          null,
+          null,
           1,
           1,
           null,
           null,
           1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/monicanavarro/Documents/repositories/bookmark_manager/bookmark_manager/lib/bookmarks.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          5,
+          5,
+          null,
+          0,
+          null,
+          5,
+          24,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
           null,
           null
         ]
@@ -38,29 +79,19 @@
           1,
           1,
           1,
-          1,
-          1,
           null,
           null,
           null
         ]
       },
-      "/Users/monicanavarro/Documents/repositories/bookmark_manager/bookmark_manager/lib/bookmarks.rb": {
+      "/Users/monicanavarro/Documents/repositories/bookmark_manager/bookmark_manager/spec/features/adding_bookmarks_spec.rb": {
         "lines": [
           1,
-          null,
           1,
           1,
-          2,
-          2,
-          null,
-          0,
-          null,
-          2,
-          8,
-          null,
-          null,
-          null,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -85,6 +116,6 @@
         ]
       }
     },
-    "timestamp": 1649696345
+    "timestamp": 1649859611
   }
 }
