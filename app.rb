@@ -22,7 +22,7 @@ class Bookmark_Manager < Sinatra::Base
   end
 
   post '/bookmarks' do
-    Bookmark.create(params[:url])
+    Bookmark.create(params[:title], params[:url])
     redirect '/bookmarks'
   end
 
