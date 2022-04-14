@@ -1,5 +1,7 @@
 <ul>
   <% @bookmarks.each do |bookmark|%>
-    <li><a href=<%= bookmark[:url] %>><%= bookmark[:title] %></a></li>
+    <form action='/bookmarks/delete' method="post">
+    <li><a href=<%= bookmark[:url] %>><%= bookmark[:title] %></a> &emsp; <input type="submit" value="Delete <%= "#{bookmark[:title]}"%>?" /></li>
+    </form>
     <% end %>
 </ul>
